@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  src: url(https://fonts.google.com/specimen/Overpass);
+  font-weight : 400, 700;
+}
+
+
+
+:root {
+
+  --clr-primary-orange : hsl(25, 97%, 53%);
+  --clr-neutral-white : hsl(0, 0%, 100%);
+  --clr-neutral-Light-gray : hsl(217, 12%, 63%);
+  --clr-neutral-medium-gray : hsl(216, 12%, 54%);
+  --clr-neutral-dark-blue : hsl(213, 19%, 18%);
+  --clr-neutral-v-dark-blue : hsl(216, 12%, 8%);
+
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  
+} 
+
+body {
+  background-color: var(--clr-neutral-v-dark-blue);
+  font-family: "overpass";
+}
+
+.container, .js-1 {
+  display: grid;
+  background-color: var(--clr-neutral-dark-blue);
+  align-content: center;
+  margin-top: 10vw;
+  margin-inline: auto;
+  align-content: center;
+  padding: 20px 20px;
+  width: 300px;
+  height: 333px;
+  border-radius: 20px;
+}
+
+.star {
+  height: 15px;
+  padding: 8px;
+  background-color: rgb(255, 255, 255,.1);
+  border-radius: 50%;
+  color: var(--clr-primary-orange);
+}
+
+.fc-white {
+  color: white;
+  font-size: 25px;
+}
+
+.para-1 {
+  font-size: 15px;
+  color: var(--clr-neutral-medium-gray);
+  line-height: 1.3;
+}
+.rating{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.rating > button {
+  padding: 17px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255,.1);
+  border: none;
+  color: var(--clr-neutral-Light-gray);
+}
+
+.rating > button:hover
+ {
+  padding: 17px;
+  border-radius: 50%;
+  background-color: var(--clr-primary-orange);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.rating > button:active,
+.rating > button:focus {
+  padding: 17px;
+  border-radius: 50%;
+  background-color: var(--clr-neutral-Light-gray);
+  border: none;
+  color: white;
+}
+
+
+.submit {
+  background-color: var(--clr-primary-orange);
+  color: white;
+  padding: 10px 75px;
+  border-radius: 20px;
+  border: none;
+  
+}
+
+.submit:hover,
+.submit:focus {
+  background-color: white;
+  color: var(--clr-primary-orange);
+  padding: 10px 75px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.illustration {
+  margin-inline: auto;
+}
+
+span {
+  color: var(--clr-primary-orange);
+  background-color: rgb(255, 255, 255,.1);
+  text-align: center;
+  margin: 20px 60px;
+  padding: 7px 0px;
+  border-radius: 16px;
+}
+
+.thx {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.js-2 {
+  display: none;
+}
