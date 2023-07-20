@@ -116,7 +116,7 @@ body {
   margin-inline: auto;
 }
 
-span {
+p1 {
   color: var(--clr-primary-orange);
   background-color: rgb(255, 255, 255,.1);
   text-align: center;
