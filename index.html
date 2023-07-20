@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -11,7 +12,7 @@
   <title>Interactive rating component</title>
 </head>
 <body>
-
+<main>
   <!-- Rating state start -->
   <div class="container js-1" id="card1">
     <div>
@@ -42,7 +43,7 @@
 <div class="container js-2" id="card2">
   <img class="illustration" src="./images/illustration-thank-you.svg" alt="illustration">
 
-  <span>You selected <number id="value"></number> out of 5</span>
+  <p1>You selected <span id="value"></span> out of 5</p1>
 
   <div class="thx">
   <h1 class="fc-white">Thank you!</h1>
@@ -54,7 +55,8 @@
   </div>
 </div>
   <!-- Thank you state end -->
-
+</main>
+  
 <script>
   
   const element = document.getElementById("myBtn");
@@ -76,3 +78,4 @@
 } 
 </script>
 </body>
+</html>
